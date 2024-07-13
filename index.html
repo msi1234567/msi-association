@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="fonts/Cloick.ttf" />
+    <link rel="stylesheet" href="css/inputStyles.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Association of Traditional Medicine of Central Asia</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-menu">
+        <div class="header-container">
+          <div class="logo">
+            <img src="images/logo/logo.png" alt="" />
+            <h3 class="asso-name lng">MSA Association</h3>
+          </div>
+          <nav>
+            <ul>
+              <li><a data-key="home-lng-key" class="lng" href="">Home</a></li>
+              <li>
+                <a href="#services" data-key="about-lng-key" class="lng"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#partners-section"
+                  data-key="membership-lng-key"
+                  class="lng"
+                  >Membership</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact-section"
+                  data-key="contact-lng-key"
+                  class="lng"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="burger-menu">
+            <div class="burger-container">
+              <h3>MENU</h3>
+              <div class="burger-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+            <div class="burger-navbar" id="burger-navbar">
+              <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#partners-section">Membership</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <select name="langSwitcher" id="langSwitcher">
+            <option value="en">en</option>
+            <option value="ru">ru</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="about-asso">
+        <div>
+          <h2>Республика Узбекистан</h2>
+          <h1>Ассоциация традиционной медицины</h1>
+        </div>
+        <button id="buttonScroll">Услуги, предостовляемые ассоциацией</button>
+      </div>
+    </header>
+
+    <section id="services" class="services-section">
+      <div class="services">
+        <div class="services-text">
+          <h1>УСЛУГИ</h1>
+          <p>Услуги, предоставляемые Ассоциацией</p>
+        </div>
+        <div class="services-list">
+          <div class="service">
+            <div class="service-icon">
+              <img src="images/icons/money-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles">
+              <h1>Налоговые льготы</h1>
+              <p>
+                lorem Члены Ассоциации имеют льготы по уплате единого налогового
+                платежа с доходов, полученных от реализации произведённых ими
+                изделий народных художественных промыслов и прикладного
+                искусства в порядке, установленном законодательством.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <img src="images/icons/laptop-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles">
+              <h1>Выставки</h1>
+              <p>
+                Члены Ассоциации получат возможность участвовать со своими
+                изделиями ремесленничества на выставках, фестивалях и
+                духовно-просветительских мероприятиях, проводимых как в
+                Узбекистане, так и в зарубежных странах.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <img src="images/icons/shield-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles">
+              <h1>Социальная Защита</h1>
+              <p>
+                Ассоциация «Хунарманд» Узбекистана осуществляет работу по
+                социальной защите членов ассоциации на основании договора с
+                межбанковской страховой компанией «Ишонч».
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; max-width: 90vw;" class="temp">
+        <img style="width: 500px" src="images/1.jpg" alt="" />
+        <img style="width: 500px" src="images/2.jpg" alt="" />
+        <img style="width: 500px" src="images/3.jpg" alt="" />
+        <img style="width: 500px" src="images/4.jpg" alt="" />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kC3slYZngaw?si=w5N1OAHFDiS7I1rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rrcTUh3Gn28?si=wg-A8swBUo9giGTH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oEbtPv4mLck?si=ydoEHGEr1fgWwctV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="services-section stats-section">
+      <div class="services stats">
+        <div class="services-text">
+          <h1>СТАТИСТИКА</h1>
+          <p>Статистика деятельности ассоциации</p>
+        </div>
+        <div class="services-list">
+          <div class="service">
+            <div class="service-icon stats-icon">
+              <img src="images/icons/group-of-people-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles stats-text-styles">
+              <h1>99386</h1>
+              <p>Количество зарегистрированных членов ассоциации в системе</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon stats-icon">
+              <img src="images/icons/group-of-people-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles stats-text-styles">
+              <h1>25916</h1>
+              <p>Общее количество членов ассоциации в системе</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-icon stats-icon">
+              <img src="images/icons/group-of-people-icon.png" alt="" />
+            </div>
+            <div class="service-text-styles stats-text-styles">
+              <h1>1396</h1>
+              <p>Общее количество ремесленников, работающих в сфере туризма</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="partners-section" class="partners-section">
+      <h1>Наши партнёры:</h1>
+      <div class="partners-slider">
+        <div class="slide"><img src="images/partners/amazon.png" alt="" /></div>
+        <div class="slide"><img src="images/partners/amazon.png" alt="" /></div>
+        <div class="slide"><img src="images/partners/amazon.png" alt="" /></div>
+        <div class="slide"><img src="images/partners/amazon.png" alt="" /></div>
+      </div>
+    </section> -->
+
+    <section id="contact-section" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-text-and-inputs">
+          <div class="contact-text">
+            <h1>Связаться с нами</h1>
+            <h3>
+              Есть вопросы или замечания? Просто напишите <br />
+              нам сообщение!
+            </h3>
+          </div>
+          <div class="contact-inputs">
+            <form id="messageForm">
+              <div class="main-inputs">
+                <div class="text-field text-field_floating-3">
+                  <input
+                    class="text-field__input"
+                    type="text"
+                    id="name"
+                    name="Name"
+                    placeholder="."
+                    required
+                  />
+                  <label class="text-field__label" for="email">Ваше имя</label>
+                </div>
+
+                <div class="text-field text-field_floating-3">
+                  <input
+                    class="text-field__input"
+                    type="text"
+                    id="phoneNumber"
+                    name="Phone-Number"
+                    placeholder="."
+                    required
+                  />
+                  <label class="text-field__label" for="phoneNumber"
+                    >Номер телефона</label
+                  >
+                </div>
+              </div>
+              <textarea
+                name="Message"
+                rows="5"
+                cols="15"
+                placeholder="Ваше сообщение"
+                required
+              ></textarea>
+              <input class="submit-button" type="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="info-panel">
+          <div class="circle-info">
+            <div class="phone-and-pos-icon">
+              <img src="images/icons/volume-icon.png" alt="" />
+            </div>
+            <h1>
+              Телефон <br />
+              (СТАЦИОНАРНЫЙ)
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+              voluptates.
+            </p>
+          </div>
+          <div class="circle-info">
+            <div class="phone-and-pos-icon">
+              <img src="images/icons/location-icon.png" alt="" />
+            </div>
+            <h1>Расположение</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              quo?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social-media">
+        <div class="social-styles">
+          <img src="images/icons/instagram-logo.png" alt="" />
+        </div>
+        <div class="social-styles">
+          <img src="images/icons/youtube-logo.png" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
